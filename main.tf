@@ -4,7 +4,7 @@ module "s3" {
 
   
   source  = "app.terraform.io/narulu/s3/aws"
-  version = "0.2.0"
+  version = "0.3.0"
   
   bucket_name           = "poc-bucket1"
   acl                   = "private"
